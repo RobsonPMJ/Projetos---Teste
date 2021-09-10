@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;   
+    background-color: rgba(128, 128, 128, 0.164);
+}
+
+.sectionPrincipal{
+    border: 1px solid rgba(0, 0, 0, 0.534);
+    width: 600px;
+    min-height: 400px;  
+    margin: 0px auto;
+    margin-top: 70px;
+    position: relative;
+    background-color: white;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 40px 0px 40px;
+    padding: 0px 0px 20px 0px;
+    color: #0079D6;
+}
+
+h1:after{
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: 15px;
+    background: -webkit-linear-gradient(left, rgba(0, 145, 255, 0) 0%,rgba(0, 145, 255, 0.8) 20%,rgba(0, 145, 255, 1) 53%,rgba(0, 145, 255, 0.8) 79%,rgba(0, 145, 255, 0) 100%); 
+    background: linear-gradient(left, rgba(0, 145, 255, 0) 0%,rgba(0, 145, 255, 0.8) 20%,rgba(0, 145, 255, 1) 53%,rgba(0, 145, 255, 0.8) 79%,rgba(0, 145, 255, 0) 100%);
+}
+
+.divDadosLogin{
+    margin: 20px 40px 0px 40px;
+}
+
+.divDadosLogin > p{
+    margin: 0px;
+    margin-bottom: 3px;
+    color: #0079D6;
+}
+
+.inputLogin{
+    width: 100%;
+    padding: 8px 0px;
+}
+
+.divCheckbox{
+    margin: 10px 40px 30px 40px;
+}
+
+.button{
+    margin: 0px 40px 0px 40px;
+    width: 524px;
+    padding: 10px 0px 10px 0px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #005CA3;
+    color: white;
+}
+
+#naoTemConta{
+    margin: 20px 0px 20px 0px;
+    font-size: 15px;
+}
+
+.manterLogin{
+    margin: 3px 4px 1px 0px 
+}
+
+#naoTemConta{
+    padding: 20px 40px 20px 0px;
+    text-align: right;
+    background-color: #0091ff38;
+    height: 20px;
+    margin: 30px 0px 0px 0px;
+}
+
+
+#secCadastro{
+    padding-bottom: 30px;
+}
+
+.inputCadastro{
+    margin: 15px 0px 0px 0px;
+    padding: 8px 0px;
+    width: 100%;
+}
+
+#divCadastro{
+    margin: 20px 40px 0px 40px;
+}

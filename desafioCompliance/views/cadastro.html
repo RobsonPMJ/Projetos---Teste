@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="../public/CSS/style.css">
+    </head>
+    <body>
+        <section class="sectionPrincipal" id="secCadastro">      
+            <h1>Cadastro</h1>      
+            <form action="">
+                <div id="divCadastro">
+                    <input type="text" name="nome" id="inputNome" class="inputCadastro" value="" placeholder="Nome*">
+                    <input type="text" name="Sobrenome" id="inputSobrenome" class="inputCadastro" value="" placeholder="Sobrenome">
+                    <input type="text" name="CPF" id="inputCpf" class="inputCadastro" value="" placeholder="CPF">
+                    <input type="text" name="E-mail" id="inputEmail" class="inputCadastro" value="" placeholder="E-mail*">
+                    <input type="password" name="senha" id="inputSenha" class="inputCadastro" value="" placeholder="Senha*" required>
+                    <input type="password" name="Confirmar Senha" id="inputSenhaConfirma" class="inputCadastro" value="" placeholder="Confirmar Senha*">
+                </div>
+                <div class="divCheckbox">
+                    <input type="checkbox" name="checkTermos" id="inputCheckTermos">Eu concordo com os <a href="">termos de uso</a>
+                </div>
+                <input type="button" value="Cadastrar" class="button"  onclick="cadastrar()">
+            </form>
+        </section>
+        <script src="../public/JS/script.js"></script>  
+    </body>
+</html>

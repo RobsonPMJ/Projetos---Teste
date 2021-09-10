@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFA800;
+    padding: 10px 0px 0px 0px;
+    border: 1px solid black;
+    border-bottom: 0px;
+}
+
+nav{
+    text-align: center;
+    background-color: #E89B00;
+    padding: 9px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+#sobre{
+    text-align: center;
+    padding: 500px 150px 0 150px;
+    border: 1px solid black;
+    height: 200px;
+}
+
+.sectionImagens{
+    display: inline-block;
+}
